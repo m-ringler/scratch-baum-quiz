@@ -71,11 +71,11 @@
         },
         {
             "height": 0,
-            "sliderMin": 0,
-            "mode": "default",
-            "value": "6",
+            "sliderMin": 2,
+            "mode": "slider",
+            "value": 6,
             "width": 0,
-            "visible": false,
+            "visible": true,
             "spriteName": null,
             "isDiscrete": true,
             "params": {
@@ -83,9 +83,9 @@
             },
             "opcode": "data_variable",
             "id": "M%Oy0BeTNCGc;vJ!l-sA",
-            "x": 5,
-            "y": 32,
-            "sliderMax": 100
+            "x": 332,
+            "y": 7,
+            "sliderMax": 6
         },
         {
             "height": 0,
@@ -304,7 +304,7 @@
         {
             "height": 0,
             "sliderMin": 0,
-            "mode": "default",
+            "mode": "large",
             "value": "0",
             "width": 0,
             "visible": true,
@@ -510,7 +510,7 @@
                 "NUMBER_NAME": "number"
             },
             "opcode": "looks_costumenumbername",
-            "id": "{5c-tGUAcQ(:9a=#K6O`_costumenumbername_number",
+            "id": "G%;R5{^H@gc.K6!iUP]p_costumenumbername_number",
             "x": 5,
             "y": 32,
             "sliderMax": 100
@@ -940,7 +940,7 @@
                     }
                 },
                 "DU%JlKLIlyqmaV@}a1Rw": {
-                    "parent": "8hr$IIz]M;b8kMMMj^I{",
+                    "parent": "RD(V8(e1xs)$,I|e2w}(",
                     "next": "vj%As.ck?~{M0g*vN]WJ",
                     "topLevel": false,
                     "inputs": {},
@@ -1326,29 +1326,6 @@
                     "opcode": "procedures_prototype",
                     "fields": {}
                 },
-                "7Ro`.%T*b|i5~*yT.;%G": {
-                    "parent": "y=@Ri!RA,PY#HkTT#/t5",
-                    "next": "^;_mUurfZVPBC@ELS*Vo",
-                    "topLevel": false,
-                    "inputs": {
-                        "VALUE": [
-                            1,
-                            [
-                                10,
-                                "6"
-                            ]
-                        ]
-                    },
-                    "shadow": false,
-                    "opcode": "data_setvariableto",
-                    "comment": "G:m}iQ(hTFy2T+_,3[_E",
-                    "fields": {
-                        "VARIABLE": [
-                            "Anzahl Paare",
-                            "M%Oy0BeTNCGc;vJ!l-sA"
-                        ]
-                    }
-                },
                 "SoGbG*fG*(jX`iytIb/~": {
                     "parent": "TwJ)gIB_gh.urw~C_!HZ",
                     "next": "J/k?5*,ZJyLsAfw0Oak;",
@@ -1369,6 +1346,20 @@
                         "VARIABLE": [
                             "Zeit",
                             "[p!p`SOZw9$wy@Fp{u.m"
+                        ]
+                    }
+                },
+                "RD(V8(e1xs)$,I|e2w}(": {
+                    "parent": "8hr$IIz]M;b8kMMMj^I{",
+                    "next": "DU%JlKLIlyqmaV@}a1Rw",
+                    "topLevel": false,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "data_hidevariable",
+                    "fields": {
+                        "VARIABLE": [
+                            "Anzahl Paare",
+                            "M%Oy0BeTNCGc;vJ!l-sA"
                         ]
                     }
                 },
@@ -1787,7 +1778,7 @@
                     "fields": {}
                 },
                 "^;_mUurfZVPBC@ELS*Vo": {
-                    "parent": "7Ro`.%T*b|i5~*yT.;%G",
+                    "parent": "y=@Ri!RA,PY#HkTT#/t5",
                     "next": "?yu+T]eL#eQESWt1=m2(",
                     "topLevel": false,
                     "inputs": {
@@ -1945,7 +1936,7 @@
                 },
                 "8hr$IIz]M;b8kMMMj^I{": {
                     "parent": "8s..3,{_c{RGe$+chayD",
-                    "next": "DU%JlKLIlyqmaV@}a1Rw",
+                    "next": "RD(V8(e1xs)$,I|e2w}(",
                     "topLevel": false,
                     "inputs": {
                         "BROADCAST_INPUT": [
@@ -2017,6 +2008,20 @@
                         "LIST": [
                             "Verfügbare Karten",
                             "):F!n_bc5RcU*AR8|3Sw"
+                        ]
+                    }
+                },
+                ";|~83POf=F-rV{s6cMpd": {
+                    "parent": "#[}{NW}hXLa4vG$E#RCi",
+                    "next": "F?j2:0iCKFJ-Yk)SH3uM",
+                    "topLevel": false,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "data_showvariable",
+                    "fields": {
+                        "VARIABLE": [
+                            "Anzahl Paare",
+                            "M%Oy0BeTNCGc;vJ!l-sA"
                         ]
                     }
                 },
@@ -2140,7 +2145,7 @@
                 },
                 "y=@Ri!RA,PY#HkTT#/t5": {
                     "parent": null,
-                    "next": "7Ro`.%T*b|i5~*yT.;%G",
+                    "next": "^;_mUurfZVPBC@ELS*Vo",
                     "topLevel": true,
                     "inputs": {},
                     "shadow": false,
@@ -2151,7 +2156,7 @@
                 },
                 "#[}{NW}hXLa4vG$E#RCi": {
                     "parent": "?r`hv8YZ1X7G?bsR!oaI",
-                    "next": "F?j2:0iCKFJ-Yk)SH3uM",
+                    "next": ";|~83POf=F-rV{s6cMpd",
                     "topLevel": false,
                     "inputs": {
                         "BROADCAST_INPUT": [
@@ -2237,7 +2242,7 @@
                     }
                 },
                 "F?j2:0iCKFJ-Yk)SH3uM": {
-                    "parent": "#[}{NW}hXLa4vG$E#RCi",
+                    "parent": ";|~83POf=F-rV{s6cMpd",
                     "next": null,
                     "topLevel": false,
                     "inputs": {},
@@ -2704,7 +2709,7 @@
                 ],
                 "M%Oy0BeTNCGc;vJ!l-sA": [
                     "Anzahl Paare",
-                    "6"
+                    6
                 ],
                 "?Ko-tch}q?_eAPUZfO:5": [
                     "Anzahl erzeugter Felder",
@@ -2712,7 +2717,7 @@
                 ],
                 "VW%Lu@%!OYtGJM[s?@-q": [
                     "Anzahl ungelöst",
-                    "6"
+                    6
                 ],
                 "^6@2xX/R[uPt{tVTzOvx": [
                     "Anzahl erzeugter Karten",
@@ -2800,37 +2805,38 @@
                     [
                         "a-linde",
                         "b-ulme",
-                        "d-birke",
                         "k-pappel",
+                        "g-weide",
                         "j-erle",
-                        "f-eiche",
-                        "k-pappel",
+                        "h-buche",
+                        "e-ahorn",
                         "c-esche",
-                        "e-ahorn",
                         "l-hasel",
+                        "h-buche",
                         "k-pappel",
-                        "g-weide",
-                        "l-hasel",
+                        "i-kastanie",
+                        "f-eiche",
                         "d-birke",
-                        "f-eiche",
+                        "i-kastanie",
                         "l-hasel",
-                        "h-buche",
+                        "j-erle",
+                        "g-weide",
                         "e-ahorn",
-                        "g-weide",
-                        "i-kastanie",
+                        "j-erle",
+                        "k-pappel",
+                        "h-buche",
                         "f-eiche",
-                        "h-buche",
-                        "j-erle",
+                        "k-pappel",
+                        "l-hasel",
+                        "i-kastanie",
                         "g-weide",
-                        "i-kastanie",
-                        "k-pappel",
+                        "l-hasel",
+                        "j-erle",
                         "h-buche",
-                        "j-erle",
-                        "l-hasel",
-                        "i-kastanie",
                         "k-pappel",
-                        "j-erle",
+                        "i-kastanie",
                         "l-hasel",
+                        "j-erle",
                         "k-pappel",
                         "l-hasel"
                     ]
@@ -2842,23 +2848,23 @@
                 "{%OBwB%XPV[yAk+vvdWy": [
                     "Felder",
                     [
-                        "j-erle",
-                        "f-eiche",
-                        "k-pappel",
-                        "c-esche",
                         "e-ahorn",
-                        "l-hasel"
+                        "c-esche",
+                        "l-hasel",
+                        "h-buche",
+                        "k-pappel",
+                        "i-kastanie"
                     ]
                 ],
                 "s4aE,D3Cy02:ss[/kZ:9": [
                     "Karten",
                     [
-                        "10-erle",
-                        "6-eiche",
-                        "11-pappel",
-                        "3-esche",
                         "5-ahorn",
-                        "12-hasel"
+                        "3-esche",
+                        "12-hasel",
+                        "8-buche",
+                        "11-pappel",
+                        "9-kastanie"
                     ]
                 ],
                 "):F!n_bc5RcU*AR8|3Sw": [
@@ -2866,37 +2872,39 @@
                     [
                         "1-linde",
                         "2-ulme",
-                        "9-kastanie",
-                        "5-ahorn",
-                        "12-hasel",
-                        "5-ahorn",
+                        "8-buche",
                         "11-pappel",
-                        "3-esche",
                         "10-erle",
-                        "6-eiche",
-                        "6-eiche",
-                        "12-hasel",
                         "4-birke",
-                        "11-pappel",
                         "7-weide",
-                        "7-weide",
-                        "5-ahorn",
+                        "3-esche",
+                        "9-kastanie",
                         "12-hasel",
+                        "11-pappel",
+                        "5-ahorn",
                         "8-buche",
-                        "8-buche",
+                        "4-birke",
+                        "10-erle",
+                        "12-hasel",
                         "6-eiche",
                         "9-kastanie",
-                        "9-kastanie",
+                        "5-ahorn",
+                        "11-pappel",
                         "7-weide",
                         "10-erle",
-                        "10-erle",
+                        "6-eiche",
+                        "12-hasel",
                         "8-buche",
                         "11-pappel",
-                        "11-pappel",
+                        "7-weide",
                         "9-kastanie",
                         "12-hasel",
-                        "12-hasel",
+                        "8-buche",
                         "10-erle",
+                        "9-kastanie",
+                        "11-pappel",
+                        "10-erle",
+                        "12-hasel",
                         "11-pappel",
                         "12-hasel"
                     ]
@@ -5114,11 +5122,11 @@
                 ],
                 "QRW;lvCoGGF:fM/qkla%": [
                     "dy",
-                    17
+                    7
                 ],
                 "3q.Gy=T^Rt8L)M?5;HbX": [
                     "dx",
-                    15
+                    6.333333333333357
                 ],
                 "sXa6d4/=svp/][c!p:mG": [
                     "Meine Nummer",
@@ -5282,7 +5290,7 @@
                     "y": 47.85185185185185
                 }
             },
-            "x": 115,
+            "x": 38.33333333333336,
             "y": -100,
             "lists": {}
         },
@@ -6309,14 +6317,14 @@
                 }
             ],
             "comments": {},
-            "x": 115.00000000000003,
+            "x": 38.33333333333336,
             "y": -100,
             "lists": {}
         }
     ],
     "meta": {
         "vm": "0.2.0-prerelease.20200602151852",
-        "agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0",
+        "agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:77.0) Gecko/20100101 Firefox/77.0",
         "semver": "3.0.0"
     }
 }
