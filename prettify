@@ -1,0 +1,3 @@
+#!/bin/bash
+cat Baum-Quiz/project.json | aeson-pretty > /tmp/project.json
+mv /tmp/project.json Baum-Quiz/project.json
