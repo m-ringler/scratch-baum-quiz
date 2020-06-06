@@ -523,8 +523,8 @@
         {
             "broadcasts": {
                 "Z5F/@Eyxfr/#?b?ZZk,c": "Gelöst",
-                "vGe-sw/@%RQQeLD~bWp4": "Init",
-                "=br=CYE~eBXP:wx8Q}Ud": "reset",
+                "vGe-sw/@%RQQeLD~bWp4": "Setze Kostüm und Position",
+                "=br=CYE~eBXP:wx8Q}Ud": "Start",
                 "a)PW`ESW(`qIj`I#lp+e": "Ende"
             },
             "blocks": {
@@ -1408,7 +1408,7 @@
                     "opcode": "sound_sounds_menu",
                     "fields": {
                         "SOUND_MENU": [
-                            "Cheer",
+                            "Beifall",
                             null
                         ]
                     }
@@ -1695,7 +1695,7 @@
                     "x": 0,
                     "fields": {
                         "BROADCAST_OPTION": [
-                            "reset",
+                            "Start",
                             "=br=CYE~eBXP:wx8Q}Ud"
                         ]
                     },
@@ -1942,7 +1942,7 @@
                             1,
                             [
                                 11,
-                                "Init",
+                                "Setze Kostüm und Position",
                                 "vGe-sw/@%RQQeLD~bWp4"
                             ]
                         ]
@@ -2313,7 +2313,7 @@
                             1,
                             [
                                 11,
-                                "reset",
+                                "Start",
                                 "=br=CYE~eBXP:wx8Q}Ud"
                             ]
                         ]
@@ -2443,7 +2443,7 @@
                     "opcode": "sound_sounds_menu",
                     "fields": {
                         "SOUND_MENU": [
-                            "Wand",
+                            "Startsignal",
                             null
                         ]
                     }
@@ -2783,7 +2783,7 @@
                     "sampleCount": 47753,
                     "format": "adpcm",
                     "dataFormat": "wav",
-                    "name": "Wand",
+                    "name": "Startsignal",
                     "rate": 22050,
                     "md5ext": "d182adef7a68a5f38f1c78ab7d5afd6a.wav",
                     "assetId": "d182adef7a68a5f38f1c78ab7d5afd6a"
@@ -2792,7 +2792,7 @@
                     "sampleCount": 109729,
                     "format": "adpcm",
                     "dataFormat": "wav",
-                    "name": "Cheer",
+                    "name": "Beifall",
                     "rate": 22050,
                     "md5ext": "170e05c29d50918ae0b482c2955768c0.wav",
                     "assetId": "170e05c29d50918ae0b482c2955768c0"
@@ -3340,7 +3340,7 @@
                     "x": 0,
                     "fields": {
                         "BROADCAST_OPTION": [
-                            "Init",
+                            "Setze Kostüm und Position",
                             "vGe-sw/@%RQQeLD~bWp4"
                         ]
                     },
@@ -3722,7 +3722,7 @@
                     "x": 0,
                     "fields": {
                         "BROADCAST_OPTION": [
-                            "reset",
+                            "Start",
                             "=br=CYE~eBXP:wx8Q}Ud"
                         ]
                     },
@@ -5339,7 +5339,7 @@
                     "x": 0,
                     "fields": {
                         "BROADCAST_OPTION": [
-                            "Init",
+                            "Setze Kostüm und Position",
                             "vGe-sw/@%RQQeLD~bWp4"
                         ]
                     },
@@ -5453,7 +5453,7 @@
                     "x": 0,
                     "fields": {
                         "BROADCAST_OPTION": [
-                            "reset",
+                            "Start",
                             "=br=CYE~eBXP:wx8Q}Ud"
                         ]
                     },
