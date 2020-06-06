@@ -510,7 +510,7 @@
                 "NUMBER_NAME": "number"
             },
             "opcode": "looks_costumenumbername",
-            "id": "G%;R5{^H@gc.K6!iUP]p_costumenumbername_number",
+            "id": "%+fjl(_(b8d=*3]+4FxZ_costumenumbername_number",
             "x": 5,
             "y": 32,
             "sliderMax": 100
@@ -524,7 +524,8 @@
             "broadcasts": {
                 "Z5F/@Eyxfr/#?b?ZZk,c": "Gelöst",
                 "vGe-sw/@%RQQeLD~bWp4": "Init",
-                "=br=CYE~eBXP:wx8Q}Ud": "reset"
+                "=br=CYE~eBXP:wx8Q}Ud": "reset",
+                "a)PW`ESW(`qIj`I#lp+e": "Ende"
             },
             "blocks": {
                 "zZ83q1N[,#;Rkaxh`D(*": {
@@ -570,6 +571,24 @@
                     },
                     "shadow": false,
                     "opcode": "control_if_else",
+                    "fields": {}
+                },
+                "=Yplg=3YwJT{24-MzXiK": {
+                    "parent": "L/EJEt_iY2bikSmp:{=m",
+                    "next": null,
+                    "topLevel": false,
+                    "inputs": {
+                        "BROADCAST_INPUT": [
+                            1,
+                            [
+                                11,
+                                "Ende",
+                                "a)PW`ESW(`qIj`I#lp+e"
+                            ]
+                        ]
+                    },
+                    "shadow": false,
+                    "opcode": "event_broadcast",
                     "fields": {}
                 },
                 "Ft`B)mxbOfpyLGPDBcdH": {
@@ -643,7 +662,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 2816
+                    "y": 3016
                 },
                 "_ZVH:41l6:yQC{!WZT:2": {
                     "parent": "MT}D2@pCK}+LEG]z84G^",
@@ -712,7 +731,7 @@
                 },
                 "L/EJEt_iY2bikSmp:{=m": {
                     "parent": "vj%As.ck?~{M0g*vN]WJ",
-                    "next": "Q0?G)%_v[xu`S-pf{DFy",
+                    "next": "=Yplg=3YwJT{24-MzXiK",
                     "topLevel": false,
                     "inputs": {},
                     "shadow": false,
@@ -862,7 +881,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 3520
+                    "y": 3720
                 },
                 "g%icL1tmg1XS9~--8U8A": {
                     "parent": "VrCQqy-hj%xV2GPtE2E@",
@@ -1033,7 +1052,7 @@
                 },
                 "bxSil6llI@jB@4$1$(0K": {
                     "parent": "{cg1lG,mM@A%n?b-hb.,",
-                    "next": "h#!Tj.v,A67@W$VCN4`}",
+                    "next": "WlyRf736jqb,jY$YQW0Y",
                     "topLevel": false,
                     "inputs": {
                         "WORDS": [
@@ -1046,6 +1065,24 @@
                     },
                     "shadow": false,
                     "opcode": "text2speech_speakAndWait",
+                    "fields": {}
+                },
+                "WlyRf736jqb,jY$YQW0Y": {
+                    "parent": "bxSil6llI@jB@4$1$(0K",
+                    "next": null,
+                    "topLevel": false,
+                    "inputs": {
+                        "BROADCAST_INPUT": [
+                            1,
+                            [
+                                11,
+                                "Ende",
+                                "a)PW`ESW(`qIj`I#lp+e"
+                            ]
+                        ]
+                    },
+                    "shadow": false,
+                    "opcode": "event_broadcastandwait",
                     "fields": {}
                 },
                 "xemFo@i]6!t6Y_sq$]?j": {
@@ -1065,25 +1102,6 @@
                     },
                     "opcode": "procedures_prototype",
                     "fields": {}
-                },
-                "YQ/lK7H@EH}iXD#Nqy-B": {
-                    "parent": "3lU@i}=`rDct~P#GFG4T",
-                    "next": null,
-                    "topLevel": false,
-                    "inputs": {},
-                    "shadow": false,
-                    "mutation": {
-                        "children": [],
-                        "tagName": "mutation",
-                        "hasnext": "false"
-                    },
-                    "opcode": "control_stop",
-                    "fields": {
-                        "STOP_OPTION": [
-                            "all",
-                            null
-                        ]
-                    }
                 },
                 "fI;7*r!#/dF|{L6hJXiB": {
                     "parent": "253gs~xx^#L?]n(D87OE",
@@ -1252,7 +1270,7 @@
                 },
                 "?r`hv8YZ1X7G?bsR!oaI": {
                     "parent": "Q0?G)%_v[xu`S-pf{DFy",
-                    "next": "#[}{NW}hXLa4vG$E#RCi",
+                    "next": "XTsy9DCymjW:lR%NR;Z4",
                     "topLevel": false,
                     "inputs": {
                         "SUBSTACK": [
@@ -1446,7 +1464,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 2352
+                    "y": 2552
                 },
                 "(8jN[.azlE{GQ8U%s})8": {
                     "parent": null,
@@ -1460,9 +1478,9 @@
                     },
                     "shadow": false,
                     "opcode": "procedures_definition",
-                    "x": 0,
+                    "x": -5,
                     "fields": {},
-                    "y": 4144
+                    "y": 4369
                 },
                 "0IB|u@[3U9Q:=gIFa*4n": {
                     "parent": "X^~[cq5YkPo!7q+`0I#J",
@@ -1566,25 +1584,6 @@
                     },
                     "opcode": "procedures_call",
                     "fields": {}
-                },
-                "h#!Tj.v,A67@W$VCN4`}": {
-                    "parent": "bxSil6llI@jB@4$1$(0K",
-                    "next": null,
-                    "topLevel": false,
-                    "inputs": {},
-                    "shadow": false,
-                    "mutation": {
-                        "children": [],
-                        "tagName": "mutation",
-                        "hasnext": "false"
-                    },
-                    "opcode": "control_stop",
-                    "fields": {
-                        "STOP_OPTION": [
-                            "all",
-                            null
-                        ]
-                    }
                 },
                 "kRHpZ5//;*4ydhCWf|z.": {
                     "parent": "SE#C.KW*Hehk9nQ~0/:P",
@@ -1700,7 +1699,7 @@
                             "=br=CYE~eBXP:wx8Q}Ud"
                         ]
                     },
-                    "y": 888
+                    "y": 1088
                 },
                 "vj%As.ck?~{M0g*vN]WJ": {
                     "parent": "DU%JlKLIlyqmaV@}a1Rw",
@@ -1757,7 +1756,7 @@
                     "opcode": "event_whenstageclicked",
                     "x": 0,
                     "fields": {},
-                    "y": 1696
+                    "y": 1896
                 },
                 "KS*Td_xJ*{6jW=t(Ieur": {
                     "parent": "eM@4?lU:.LVERiLex,4Y",
@@ -1870,7 +1869,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 1848
+                    "y": 2048
                 },
                 "eM@4?lU:.LVERiLex,4Y": {
                     "parent": "L]VTk;l.O}NbP2Lyc!1Q",
@@ -1921,7 +1920,7 @@
                     "fields": {}
                 },
                 "Q0?G)%_v[xu`S-pf{DFy": {
-                    "parent": "L/EJEt_iY2bikSmp:{=m",
+                    "parent": "381I|/^0JJhu*F},tEXv",
                     "next": "?r`hv8YZ1X7G?bsR!oaI",
                     "topLevel": false,
                     "inputs": {
@@ -2012,7 +2011,7 @@
                     }
                 },
                 ";|~83POf=F-rV{s6cMpd": {
-                    "parent": "#[}{NW}hXLa4vG$E#RCi",
+                    "parent": "XTsy9DCymjW:lR%NR;Z4",
                     "next": "F?j2:0iCKFJ-Yk)SH3uM",
                     "topLevel": false,
                     "inputs": {},
@@ -2150,27 +2149,9 @@
                     "inputs": {},
                     "shadow": false,
                     "opcode": "event_whenflagclicked",
-                    "x": -1,
+                    "x": 0,
                     "fields": {},
-                    "y": -59
-                },
-                "#[}{NW}hXLa4vG$E#RCi": {
-                    "parent": "?r`hv8YZ1X7G?bsR!oaI",
-                    "next": ";|~83POf=F-rV{s6cMpd",
-                    "topLevel": false,
-                    "inputs": {
-                        "BROADCAST_INPUT": [
-                            1,
-                            [
-                                11,
-                                "reset",
-                                "=br=CYE~eBXP:wx8Q}Ud"
-                            ]
-                        ]
-                    },
-                    "shadow": false,
-                    "opcode": "event_broadcastandwait",
-                    "fields": {}
+                    "y": 0
                 },
                 ".Q=8PX~rqM`?a131#}J;": {
                     "parent": "neljIoJTzfxYi{un%Asy",
@@ -2467,6 +2448,24 @@
                         ]
                     }
                 },
+                "gE-xmk22MmA^aNt@rv+4": {
+                    "parent": "3lU@i}=`rDct~P#GFG4T",
+                    "next": null,
+                    "topLevel": false,
+                    "inputs": {
+                        "BROADCAST_INPUT": [
+                            1,
+                            [
+                                11,
+                                "Ende",
+                                "a)PW`ESW(`qIj`I#lp+e"
+                            ]
+                        ]
+                    },
+                    "shadow": false,
+                    "opcode": "event_broadcastandwait",
+                    "fields": {}
+                },
                 "C4=oUPILW_BcgC@`aDgL": {
                     "parent": "mwX,YBPr+Z+Tl#GYw@j=",
                     "next": null,
@@ -2541,7 +2540,7 @@
                 },
                 "3lU@i}=`rDct~P#GFG4T": {
                     "parent": "h=t;.MFiyDh:G?{,S8nF",
-                    "next": "YQ/lK7H@EH}iXD#Nqy-B",
+                    "next": "gE-xmk22MmA^aNt@rv+4",
                     "topLevel": false,
                     "inputs": {
                         "WORDS": [
@@ -2583,6 +2582,22 @@
                             "1uiQ=RL2BffE$]LAqd*Q"
                         ]
                     }
+                },
+                "381I|/^0JJhu*F},tEXv": {
+                    "parent": null,
+                    "next": "Q0?G)%_v[xu`S-pf{DFy",
+                    "topLevel": true,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "event_whenbroadcastreceived",
+                    "x": 0,
+                    "fields": {
+                        "BROADCAST_OPTION": [
+                            "Ende",
+                            "a)PW`ESW(`qIj`I#lp+e"
+                        ]
+                    },
+                    "y": 640
                 },
                 "]F!6T{:u92a@7M*2_vSo": {
                     "parent": "!Oug|J(1tmy,%+6O$)W1",
@@ -2651,6 +2666,28 @@
                     "opcode": "operator_multiply",
                     "fields": {}
                 },
+                "XTsy9DCymjW:lR%NR;Z4": {
+                    "parent": "?r`hv8YZ1X7G?bsR!oaI",
+                    "next": ";|~83POf=F-rV{s6cMpd",
+                    "topLevel": false,
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "shadow": false,
+                    "opcode": "data_setvariableto",
+                    "fields": {
+                        "VARIABLE": [
+                            "Zeit",
+                            "[p!p`SOZw9$wy@Fp{u.m"
+                        ]
+                    }
+                },
                 "GLF!h0TLJX6Z,L}0E29h": {
                     "parent": "b.OVDjo|lev6#A%nI-2X",
                     "next": null,
@@ -2693,7 +2730,7 @@
                 ],
                 "1uiQ=RL2BffE$]LAqd*Q": [
                     "x",
-                    -115
+                    -38.333333333333314
                 ],
                 "Qll`TxAy=HA*80-G!@@h": [
                     "Zeit sichtbar",
@@ -2713,15 +2750,15 @@
                 ],
                 "?Ko-tch}q?_eAPUZfO:5": [
                     "Anzahl erzeugter Felder",
-                    "1"
+                    6
                 ],
                 "VW%Lu@%!OYtGJM[s?@-q": [
                     "Anzahl ungelöst",
-                    6
+                    0
                 ],
                 "^6@2xX/R[uPt{tVTzOvx": [
                     "Anzahl erzeugter Karten",
-                    "1"
+                    6
                 ],
                 "[p!p`SOZw9$wy@Fp{u.m": [
                     "Zeit",
@@ -2786,8 +2823,8 @@
                     "text": "0: Zeitmessung AN\n1: Zeitmessung AUS",
                     "width": 650.102783203125,
                     "blockId": "^;_mUurfZVPBC@ELS*Vo",
-                    "x": 479.14814814814827,
-                    "y": 82.7037037037037
+                    "x": 470.74074074074076,
+                    "y": 73.87037037037037
                 },
                 "G:m}iQ(hTFy2T+_,3[_E": {
                     "minimized": false,
@@ -2804,40 +2841,10 @@
                     "Verfügbare Felder",
                     [
                         "a-linde",
-                        "b-ulme",
-                        "k-pappel",
-                        "g-weide",
-                        "j-erle",
-                        "h-buche",
-                        "e-ahorn",
                         "c-esche",
-                        "l-hasel",
-                        "h-buche",
-                        "k-pappel",
-                        "i-kastanie",
-                        "f-eiche",
                         "d-birke",
-                        "i-kastanie",
-                        "l-hasel",
-                        "j-erle",
-                        "g-weide",
                         "e-ahorn",
-                        "j-erle",
-                        "k-pappel",
-                        "h-buche",
-                        "f-eiche",
-                        "k-pappel",
-                        "l-hasel",
-                        "i-kastanie",
                         "g-weide",
-                        "l-hasel",
-                        "j-erle",
-                        "h-buche",
-                        "k-pappel",
-                        "i-kastanie",
-                        "l-hasel",
-                        "j-erle",
-                        "k-pappel",
                         "l-hasel"
                     ]
                 ],
@@ -2848,64 +2855,33 @@
                 "{%OBwB%XPV[yAk+vvdWy": [
                     "Felder",
                     [
-                        "e-ahorn",
-                        "c-esche",
-                        "l-hasel",
-                        "h-buche",
                         "k-pappel",
-                        "i-kastanie"
+                        "b-ulme",
+                        "h-buche",
+                        "i-kastanie",
+                        "j-erle",
+                        "f-eiche"
                     ]
                 ],
                 "s4aE,D3Cy02:ss[/kZ:9": [
                     "Karten",
                     [
-                        "5-ahorn",
-                        "3-esche",
-                        "12-hasel",
-                        "8-buche",
                         "11-pappel",
-                        "9-kastanie"
+                        "2-ulme",
+                        "8-buche",
+                        "9-kastanie",
+                        "10-erle",
+                        "6-eiche"
                     ]
                 ],
                 "):F!n_bc5RcU*AR8|3Sw": [
                     "Verfügbare Karten",
                     [
                         "1-linde",
-                        "2-ulme",
-                        "8-buche",
-                        "11-pappel",
-                        "10-erle",
-                        "4-birke",
-                        "7-weide",
                         "3-esche",
-                        "9-kastanie",
-                        "12-hasel",
-                        "11-pappel",
-                        "5-ahorn",
-                        "8-buche",
                         "4-birke",
-                        "10-erle",
-                        "12-hasel",
-                        "6-eiche",
-                        "9-kastanie",
                         "5-ahorn",
-                        "11-pappel",
                         "7-weide",
-                        "10-erle",
-                        "6-eiche",
-                        "12-hasel",
-                        "8-buche",
-                        "11-pappel",
-                        "7-weide",
-                        "9-kastanie",
-                        "12-hasel",
-                        "8-buche",
-                        "10-erle",
-                        "9-kastanie",
-                        "11-pappel",
-                        "10-erle",
-                        "12-hasel",
-                        "11-pappel",
                         "12-hasel"
                     ]
                 ],
@@ -2916,12 +2892,12 @@
                 "DT,|qztAGua7:-Ki5Sg7": [
                     "Lösung",
                     [
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0",
-                        "0"
+                        -115,
+                        -38.333333333333314,
+                        115,
+                        191.66666666666669,
+                        38.33333333333336,
+                        -191.66666666666666
                     ]
                 ]
             }
@@ -3003,7 +2979,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 2616
+                    "y": 2768
                 },
                 "%F+.|)E*h3WV86IO=4}.": {
                     "parent": "=9q$`FV0j`hCxAe,1o#m",
@@ -3156,7 +3132,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 1616
+                    "y": 1768
                 },
                 ":a~MlIrlYU;Zi(J2I]q}": {
                     "parent": "2}w?G13:{^H8Epdtf;|V",
@@ -3368,7 +3344,7 @@
                             "vGe-sw/@%RQQeLD~bWp4"
                         ]
                     },
-                    "y": 1312
+                    "y": 1464
                 },
                 "[dGJ*+}C{|[e%3;18,Lr": {
                     "parent": "SS6*8[_1LV/4a*I.DPA`",
@@ -3542,7 +3518,7 @@
                             "`jEk@4|i[#Fk?(8x)AV.-my variable"
                         ]
                     },
-                    "y": 1944
+                    "y": 2096
                 },
                 "Qc!TRzzq~2XnP.W(BouZ": {
                     "parent": "nvNGXuo@.jYL?/5rla~S",
@@ -3734,7 +3710,7 @@
                     "opcode": "control_start_as_clone",
                     "x": 0,
                     "fields": {},
-                    "y": 976
+                    "y": 1128
                 },
                 "o]`GiBV$3q5:l)VVW+xh": {
                     "parent": null,
@@ -4021,7 +3997,7 @@
                     "opcode": "event_whenthisspriteclicked",
                     "x": 0,
                     "fields": {},
-                    "y": 2208
+                    "y": 2360
                 },
                 "J9KOL0$(tO@`#6ubbGPr": {
                     "parent": "i23A.s}4UeJ}YbzV.JoC",
@@ -4055,7 +4031,23 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 4304
+                    "y": 4456
+                },
+                "c,[Qa;4d_w02[5?lGa]b": {
+                    "parent": null,
+                    "next": "L6us2$TekA!T`{db~=(3",
+                    "topLevel": true,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "event_whenbroadcastreceived",
+                    "x": 0,
+                    "fields": {
+                        "BROADCAST_OPTION": [
+                            "Ende",
+                            "a)PW`ESW(`qIj`I#lp+e"
+                        ]
+                    },
+                    "y": 392
                 },
                 "Nvs#ES*w]nc./;Kah.h|": {
                     "parent": ",x~QwjG*^81uyHA#YAm{",
@@ -4207,7 +4199,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 392
+                    "y": 544
                 },
                 "a%N%D?g6y_|E$~L@$cNb": {
                     "parent": "OAm,Zpu#u/F!W;qqVEIb",
@@ -4365,7 +4357,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 3856
+                    "y": 4008
                 },
                 "4s?-Z7P,DG6FsOn#)3-c": {
                     "parent": "o]`GiBV$3q5:l)VVW+xh",
@@ -4466,7 +4458,7 @@
                             "Z5F/@Eyxfr/#?b?ZZk,c"
                         ]
                     },
-                    "y": 3160
+                    "y": 3312
                 },
                 "Pmp+P?EsYBDEQm;-3Xz#": {
                     "parent": "C{e`jO1uGyhGu$gBC7o?",
@@ -5051,6 +5043,15 @@
                         ]
                     }
                 },
+                "L6us2$TekA!T`{db~=(3": {
+                    "parent": "c,[Qa;4d_w02[5?lGa]b",
+                    "next": null,
+                    "topLevel": false,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "looks_hide",
+                    "fields": {}
+                },
                 "SS6*8[_1LV/4a*I.DPA`": {
                     "parent": "!j1uUR{JP[[CRKsRG7Lv",
                     "next": "`dnBzaMnyl9gX`Jv?GRv",
@@ -5118,15 +5119,15 @@
             "variables": {
                 "Ux1WPbl7qSMl*kqK`|ce": [
                     "Mein fertig",
-                    "0"
+                    "1"
                 ],
                 "QRW;lvCoGGF:fM/qkla%": [
                     "dy",
-                    7
+                    3
                 ],
                 "3q.Gy=T^Rt8L)M?5;HbX": [
                     "dx",
-                    6.333333333333357
+                    9
                 ],
                 "sXa6d4/=svp/][c!p:mG": [
                     "Meine Nummer",
@@ -5168,7 +5169,7 @@
             "isStage": false,
             "visible": false,
             "name": "Karte",
-            "currentCostume": 0,
+            "currentCostume": 10,
             "costumes": [
                 {
                     "rotationCenterX": 150,
@@ -5290,7 +5291,7 @@
                     "y": 47.85185185185185
                 }
             },
-            "x": 38.33333333333336,
+            "x": -115,
             "y": -100,
             "lists": {}
         },
@@ -5342,7 +5343,23 @@
                             "vGe-sw/@%RQQeLD~bWp4"
                         ]
                     },
-                    "y": 1264
+                    "y": 1416
+                },
+                "j~:qnMFystq:bmyq[=?U": {
+                    "parent": null,
+                    "next": "Fo6W~24dF[7Fn8BGz9Rj",
+                    "topLevel": true,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "event_whenbroadcastreceived",
+                    "x": 0,
+                    "fields": {
+                        "BROADCAST_OPTION": [
+                            "Ende",
+                            "a)PW`ESW(`qIj`I#lp+e"
+                        ]
+                    },
+                    "y": 344
                 },
                 "ott{+7o_5Hk6#CRD`7/B": {
                     "parent": "bz@0Bl^bE0FmG-xK5=IK",
@@ -5376,7 +5393,7 @@
                     "opcode": "event_whenthisspriteclicked",
                     "x": 0,
                     "fields": {},
-                    "y": 1944
+                    "y": 2096
                 },
                 "h7irKRK3Gi^}{^Xb5p`%": {
                     "parent": "bz@0Bl^bE0FmG-xK5=IK",
@@ -5605,7 +5622,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 1568
+                    "y": 1720
                 },
                 "+I]V87Q#6YV)@Zf~nssf": {
                     "parent": "i)xP#6+T}NWhA~8e4cgB",
@@ -5926,7 +5943,7 @@
                     "opcode": "control_start_as_clone",
                     "x": 0,
                     "fields": {},
-                    "y": 928
+                    "y": 1080
                 },
                 "g4f}%X1@j^a~?R%3w_}$": {
                     "parent": "?2(OTg@g%Qq`}wno,O(G",
@@ -6033,6 +6050,15 @@
                             null
                         ]
                     }
+                },
+                "Fo6W~24dF[7Fn8BGz9Rj": {
+                    "parent": "j~:qnMFystq:bmyq[=?U",
+                    "next": null,
+                    "topLevel": false,
+                    "inputs": {},
+                    "shadow": false,
+                    "opcode": "looks_hide",
+                    "fields": {}
                 },
                 "x6;lQL#S~h-?!Ty`{K6Q": {
                     "parent": "l3y40Da#9XIT5.Zv(,{E",
@@ -6161,7 +6187,7 @@
                     "opcode": "procedures_definition",
                     "x": 0,
                     "fields": {},
-                    "y": 344
+                    "y": 496
                 },
                 ",DNV#Ottx:EaFa#le9Kd": {
                     "parent": "%oBJ3/{[,^1@gr5oSnKb",
@@ -6205,7 +6231,7 @@
             "isStage": false,
             "visible": false,
             "name": "Zielfeld",
-            "currentCostume": 0,
+            "currentCostume": 10,
             "costumes": [
                 {
                     "rotationCenterX": 150,
@@ -6317,7 +6343,7 @@
                 }
             ],
             "comments": {},
-            "x": 38.33333333333336,
+            "x": -114.99999999999999,
             "y": -100,
             "lists": {}
         }
