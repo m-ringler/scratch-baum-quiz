@@ -45,7 +45,10 @@ def convert_image(input_image_file: str, output_dir: str, size: Optional[Tuple[i
     im = im.resize((w, h))
     input_path = Path(input_image_file)
     out_path = Path(output_dir, input_path.name)
-    if out_path.suffix.lower() != '.png':
+    ext = out_path.suffix.lower()
+    if ext == ".gif":
+        out_path = out_path.with_suffix(".png")
+    elif ext != '.png':
         out_path = out_path.with_suffix(".jpg")
     im.save(out_path)
     return out_path, w, h
