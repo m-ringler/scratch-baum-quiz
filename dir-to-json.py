@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# USAGE: dir-to-json.py path/to/dir [ /path/to/background.jpg ]
 
 import json
 import shutil
@@ -17,4 +18,8 @@ for i in range(0, len(files), 2):
 
 config["output"] = p.name + ".sb3"
 config["pairs"] = pairs
+
+if len(sys.argv) > 2:
+    config["background"] = sys.argv[2]
+
 print(json.dumps(config, indent=4))
